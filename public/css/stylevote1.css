@@ -1,0 +1,91 @@
+@font-face {
+    font-family: SansArabBold;
+    src: url('../fonts/TheSans-Bold.otf');
+}
+@font-face {
+    font-family: SansArabPlain;
+    src: url('../fonts/The-Sans-Plain.otf');
+}
+@font-face {
+    font-family: SansArabLight;
+    src: url('../fonts/TheSansArabic-Light.otf');
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+form {
+
+    width: 30%;
+    height: 690px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #E6E6E6;
+    font-weight: bolder;
+}
+
+form .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 80%;
+    margin: 20px auto;
+    font-size: 20px;
+    font-family: SansArabBold, serif;
+
+}
+
+form .container input {
+    width: 100%;
+    margin: 5px 0 25px;
+    padding: 3%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #009D8E;
+    direction: rtl;
+    color: #FFF;
+    font-size: 17px;
+
+
+}
+
+form .stars {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+form .stars span {
+    color: #E6E6E6;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+form input[type="submit"] {
+    width: max-content;
+    margin: 10px auto;
+    padding: 3px 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #C9C795;
+    color: #185953;
+    cursor: pointer;
+    font-family: SansArabBold, serif;
+
+}
+button [type="text"]{
+   width:40vw ;
+height: 15vh;"
+}
+

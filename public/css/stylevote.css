@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap');
+
+@font-face {
+    font-family: SansArabBold;
+    src: url('../fonts/TheSans-Bold.otf');
+}
+@font-face {
+    font-family: SansArabPlain;
+    src: url('../fonts/The-Sans-Plain.otf');
+}
+@font-face {
+    font-family: SansArabLight;
+    src: url('../fonts/TheSansArabic-Light.otf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+.form-signin {
+    top: 0;
+    background-color: #175A53;
+    position: absolute;
+    max-width: 380px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-weight: bolder;
+}
+
+.form-signin .form-signin-heading,
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+
+
+
+.form-signin input[type="password"] {
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+label{
+    color: #E6E6E6;
+    text-align: center;
+    font-family: SansArabBold, sans-serif;
+}
+.container{
+    width: 250px;
+    padding: 10px;
+    margin-bottom: auto;
+    text-align: right;
+
+}
+.container label{
+    margin-right: 5px;
+
+}
+.container input:first-of-type,
+.container input:nth-of-type(2) {
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background-color: #009D8E;
+    border-radius: 20px;
+    margin-bottom: 5px;
+
+}
+
+form .btn {
+    color: #175A53;
+    padding: 0;
+    width: 150px;
+    margin: auto
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    height: 100vh;
+    background-image: url("../img/votpage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+.form-text {
+    font-family: 'El Messiri', sans-serif;
+}
+form{
+    height: 100vh;
+    background-color: rgba(28, 91, 80, 0.8);
+    float: right;
+    width: 30vw;
+}
+.rating-box h1{
+    margin:0 0 30px;
+    font-size: 40px;
+}
+
+.rating-box {
+    text-align: center
+}
+
+.rating-box .ratings .fa{
+    font-size: 45px;
+    color: #FFCB00;
+    cursor: pointer;
+}
+
+.rating-box .ratings:hover  .fa{
+    color: #FFCB00
+}
+
+.rating-box input{
+    margin-top: 20px;
+    font-size:30px;
+    padding:6px 12px;
+    color: #FFCB00
+}
+@media (max-width: 1199.98px) {
+    form{
+        width: 40vw;
+    }
+}
+@media (max-width: 991.98px) {
+    form{
+        width: 45vw;
+    }
+}
+@media (max-width: 767.98px) {
+    form{
+        width: 50vw;
+    }
+}
+@media (max-width: 575.98px) {
+    form{
+        width: 100vw;
+    }
+}
+
+
+
+
+

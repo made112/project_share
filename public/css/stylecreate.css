@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap');
+
+@font-face {
+    font-family: SansArabBold;
+    src: url('../fonts/TheSans-Bold.otf');
+}
+@font-face {
+    font-family: SansArabPlain;
+    src: url('../fonts/The-Sans-Plain.otf');
+}
+@font-face {
+    font-family: SansArabLight;
+    src: url('../fonts/TheSansArabic-Light.otf');
+}
+
+#participate{
+    font-size: 40px;
+}
+#posts_img{
+    display: none;
+}
+#posts_video{
+    display: none;
+}
+.post_type{
+    display: none;
+}
+#posts_speak{
+    display: none;
+}
+#posts_line{
+    display: none;
+}
+
+label{
+    font-size: 20px;
+    color: white;
+    font-family: SansArabBold, sans-serif;
+}
+
+
+
+#participate{
+    font-family: SansArabBold, serif;
+    font-size: 50px;
+    color:#FFC107
+;
+}
+[type="submit"]
+{
+
+    border-radius: 20px;
+    color: #FBFBFB;
+    font-family: SansArabBold, serif;
+    width: 170px;
+    height: 40px;
+    background-color:#FFC107 ;
+    position: relative;
+    left: -80px;
+    margin-top: 12px;
+    text-align: center;
+}
+[type="button"]
+{
+
+    border-radius: 20px;
+    color: #FBFBFB;
+    font-family: SansArabBold, serif;
+    width: 170px;
+    height: 40px;
+    background-color:#FFC107 ;
+    position: relative;
+    left: -69px;
+    margin-top: 12px;
+    text-align: center;
+}
+nav {
+    background-color: #044d45 ;
+}
+
+
+/* .mainBody {
+    background-position: center;
+    background-color: rgb(22, 20, 20);
+    margin: 0% 9.5%;
+    border: white solid 5px;
+} */
+
+ul {
+    list-style-type: none;
+    margin: 0 5%;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: SansArabBold, sans-serif;
+}
+
+li a:hover {
+    background-color: rgba(8, 167, 216);
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+}
