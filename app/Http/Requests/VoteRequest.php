@@ -26,7 +26,7 @@ class VoteRequest extends FormRequest
     {
         return [
             'name' => 'required',
-            'email' => 'required|email|unique:vote',
+            'email' => 'required|email',
             'avg_percent' => 'required',
 //            'sharing_id'=> 'required'
 
@@ -39,7 +39,6 @@ class VoteRequest extends FormRequest
 
         return [
             'email.required' => 'يرجى ادخال البريد الإلكتروني',
-            'email.unique' => ' لا يمكن التصويت لنفس المشاركة أكثر من مرة من نفس البريد الإلكتروني',
             'email.email'=>'هذا  البريد الإلكتروني غير صالح',
             'name.required' => 'يرجى ادخال الإسم',
 

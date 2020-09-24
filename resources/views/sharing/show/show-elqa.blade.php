@@ -44,10 +44,7 @@
                     </div>
                     <div class="row mb-0 d-flex">
                         <div style="" class="col-lg-6 col-12 pl-0 order-lg-1  order-2">
-                            <video style="display: none" width="100%" height="100%" controls>
-                                <source src="" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
+
                             <audio width="100%" height="100%"controls>
                                 <source  src="{{asset('elqa/'.$data->elqa.'')}}" type="audio/mpeg">
 

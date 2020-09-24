@@ -8,7 +8,16 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{{asset('css/styleshow.css')}}">
     <title>Gallary Particiabtion</title>
+    <header class="mainBody">
+        <nav>
+            <ul>
+                <li><a href={{route('sharing.create')}}>مشاركة</a></li>
+                <li><a href={{route('sharing.show')}}>معرض المشاركات</a></li>
+                <li><a href={{route('sharing.home')}}>الرئيسة</a></li>
 
+            </ul>
+        </nav>
+    </header>
 </head>
 
 

@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/','BasicController@index');
+Route::get('/','BasicController@index')->name('sharing.home');
 Route::group(['prefix' => 'sharing'], function () {
     Route::get('create','SharingController@create')->name('sharing.create');
     Route::get('show','SharingController@show')->name('sharing.show');

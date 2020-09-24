@@ -16,7 +16,9 @@
         }
 
     </style>
+
 </head>
+
 
 <body>
 <header class="mainBody">
@@ -24,9 +26,13 @@
         <ul>
             <li><a href={{route('sharing.create')}}>مشاركة</a></li>
             <li><a href={{route('sharing.show')}}>معرض المشاركات</a></li>
+            <li><a href={{route('sharing.home')}}>الرئيسة</a></li>
+
         </ul>
     </nav>
-</header><section class="section-Gallery">
+</header>
+
+<section class="section-Gallery">
     <div class="container">
         <div class="header-Gallery">
             <div class="row text-center">
@@ -71,67 +77,58 @@
 
         <div id="results" class="row">
 
-            <section class="container d-flex align-content-start flex-wrap">
 
-                @foreach($data as $item )
-                    <div class="col-lg-4  col-md-6 col-sm-12">
+            @foreach($data as $item )
+                <div class="col-lg-4  col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem;">
 
-                        <section class="container d-flex align-content-start flex-wrap">
+                        <div class="overlaycon">
+                            <a href="{{url('/show-drawing/'.$item->id.'')}}"> <img   class="img-fluid" src="{{asset('drawing/'.$item->drawing.'')}}">
 
+                            </a>
+                        </div>
 
-
-
-
-
-                            <div class="card" style="width: 18rem;">
-
-                                <div class="overlaycon">
-                                    <a href="{{url('/show-drawing/'.$item->id.'')}}"> <img   class="img-fluid" src="{{asset('drawing/'.$item->drawing.'')}}">
-
-                                    </a>
-                                </div>
-
-                                <div class="card-body">
-                                    <h5 class="card-title">{{$item->name}} </h5>
-                                    <a href="{{url('view-vote/ '.$item->id.'')}}" class="btn btn-primary">تصويت</a>
-                                </div>
-                            </div>
-                        </section>
+                        <div class="card-body">
+                            <h5 class="card-title">{{$item->name}} </h5>
+                            <a href="{{url('view-vote/ '.$item->id.'')}}" class="btn btn-primary">تصويت</a>
+                        </div>
                     </div>
+                </div>
 
             @endforeach
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+</section>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 
-    <script>
+<script>
 
-        var countrySelectBox    = document.getElementById('exampleFormControlSelect1');
-        var dataContainer       = document.getElementById('results');
-        countrySelectBox.onchange = function() {
-            var eduShare = $(this).val();
-            $.ajax({
-                url: this.dataset.route,
-                data: {
-                    '_token': this.dataset.csrf,
-                    'id': this.value
-                },
-                type: 'post',
-                success: function(data) {
-                    var url = "{{url('show-rang-drawing')}}" + "/" + eduShare + "/" + "1";
-                    // console.log(url)
-                    $('#show-range').attr('href',url)
-                    console.log(data);
-                    dataContainer.innerHTML = data;
-                }
-            });
+    var countrySelectBox    = document.getElementById('exampleFormControlSelect1');
+    var dataContainer       = document.getElementById('results');
+    countrySelectBox.onchange = function() {
+        var eduShare = $(this).val();
+        $.ajax({
+            url: this.dataset.route,
+            data: {
+                '_token': this.dataset.csrf,
+                'id': this.value
+            },
+            type: 'post',
+            success: function(data) {
+                var url = "{{url('show-rang-drawing')}}" + "/" + eduShare + "/" + "1";
+                // console.log(url)
+                $('#show-range').attr('href',url)
+                console.log(data);
+                dataContainer.innerHTML = data;
+            }
+        });
 
-        }
-    </script>
+    }
+</script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+
 
 </html>

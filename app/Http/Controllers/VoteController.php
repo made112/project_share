@@ -13,6 +13,12 @@ class VoteController extends Controller
 {
     public function store(VoteRequest $request)
     {
+        $vote = Vote::where('email', $request->email)->where('sharing_id', $request->sharing_id)->first();
+        if($vote){
+
+            return redirect()->back()->with(['error' => 'لا يمكنك التصويت لقد قمت بالتصويت مسبقا']);
+
+            }
         vote::create([
             'name' => $request->name,
             'email' => $request->email,
@@ -262,15 +268,13 @@ class VoteController extends Controller
                 ->orderBy('vote_avg', 'desc')->get();
 
         }
-//dd($data) ;
 
         return view('sharing.rang.end_drawing', compact('data'));
 
     }
-   public function suq($sharing_id){
+    public function suq($sharing_id){
         $data =sharing::where('id','$sharing_id') ->get();
-       dd($sharing_id);
-       return view('sharing.drawing',compact('$data'));
+        return view('sharing.drawing',compact('$data'));
 
     }
 }

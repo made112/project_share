@@ -20,6 +20,16 @@
         }
 
     </style>
+    <header class="mainBody">
+        <nav>
+            <ul>
+                <li><a href={{route('sharing.create')}}>مشاركة</a></li>
+                <li><a href={{route('sharing.show')}}>معرض المشاركات</a></li>
+                <li><a href={{route('sharing.show')}}>معرض المشاركات</a></li>
+
+            </ul>
+        </nav>
+    </header>
 </head>
 
 <body>

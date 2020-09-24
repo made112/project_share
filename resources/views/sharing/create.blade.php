@@ -43,8 +43,9 @@
 <header class="mainBody">
     <nav>
         <ul>
-            <li><a href={{route('sharing.create')}}>مشاركة</a></li>
             <li><a href={{route('sharing.show')}}>معرض المشاركات</a></li>
+            <li><a href={{route('sharing.home')}}>الرئيسة</a></li>
+
         </ul>
     </nav>
 </header>
@@ -82,12 +83,17 @@
 
         <div class="container">
             <div class="form-group col-md-3">
-                <label for="occupational_report">الإسم</label>
-                <input type="text" class="form-control" id="occupational_report" name="name">
-                @error('name')
-                <small class="form-text " style="color: #FFC107; font-size: 15px;font-family: 'El Messiri', sans-serif">{{$message}}</small>
-                @enderror
+
+                <div class="form-group">
+
+                    <label for="nationality">الجنسية</label>
+                    <input type="text" class="form-control" id="nationality" name="nationality">
+                    @error('nationality')
+                    <small class="form-text " style="color: #FFC107; font-size: 15px;font-family: 'El Messiri', sans-serif">{{$message}}</small>
+                    @enderror
+                </div>
             </div>
+
 
 
 
@@ -110,16 +116,13 @@
                 @enderror
             </div>
             <div class="form-group col-md-3">
-
-                <div class="form-group">
-
-                    <label for="nationality">الجنسية</label>
-                    <input type="text" class="form-control" id="nationality" name="nationality">
-                    @error('nationality')
-                    <small class="form-text " style="color: #FFC107; font-size: 15px;font-family: 'El Messiri', sans-serif">{{$message}}</small>
-                    @enderror
-                </div>
+                <label for="occupational_report">الإسم</label>
+                <input type="text" class="form-control" id="occupational_report" name="name">
+                @error('name')
+                <small class="form-text " style="color: #FFC107; font-size: 15px;font-family: 'El Messiri', sans-serif">{{$message}}</small>
+                @enderror
             </div>
+
         </div>
         <br>
 
@@ -180,7 +183,7 @@
                     <option value="لتعليم بمحافظة حوطة بني تميم والحريق">  التعليم بمحافظة حوطة بني تميم والحريق</option>
                     <option value="إدارة التعليم بمحافظة الأفلاج " > إدارة التعليم بمحافظة الأفلاج</option>
                     <option value="إدارة التعليم بمحافظة وادي الدواسر">إدارة التعليم بمحافظة وادي الدواسر</option>
-                    <option value ="إدارة التعليم بمحافظة المجمعة">=""إدارة التعليم بمحافظة المجمعة</option>
+                    <option value ="إدارة التعليم بمحافظة المجمعة">إدارة التعليم بمحافظة المجمعة</option>
                     <option value = "إدارة التعليم بمحافظة الغاط">إدارة التعليم بمحافظة الغاط</option>
                     <option value="إدارة التعليم بمحافظة الزلفي" >إدارة التعليم بمحافظة الزلفي</option>
                     <option value="إدارة التعليم بمحافظة عفيف">إدارة التعليم بمحافظة عفيف</option>

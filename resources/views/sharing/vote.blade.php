@@ -16,7 +16,16 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href='{{asset('css/style.css')}}'>
+    <header class="mainBody">
+        <nav>
+            <ul>
+                <li><a href={{route('sharing.create')}}>مشاركة</a></li>
+                <li><a href={{route('sharing.show')}}>معرض المشاركات</a></li>
+                <li><a href={{route('sharing.home')}}>الرئيسة</a></li>
 
+            </ul>
+        </nav>
+    </header>
 </head>
 
 <body>
@@ -33,6 +42,13 @@
             </button>
         </div>
 @endif
+         @if(Session::has('error'))
+             <div class="row mr-2 ml-2" >
+                 <button type="text" class="btn btn-lg btn-block btn-outline-warning mb-2"
+                         id="type-error">{{Session::get('error')}}
+                 </button>
+             </div>
+         @endif
 
         <label>الإسم</label>
         <input type="text" name="name">

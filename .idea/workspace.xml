@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c54e084d-814f-4d4f-b295-58c79a3093ab" name="Default Changelist" comment="" />
+    <list default="true" id="c54e084d-814f-4d4f-b295-58c79a3093ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/drawing/1600956922.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/drawing/1600956944.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/elqa/1600957264.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/elqa/1600957280.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/votpage2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/1600955856.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/1600956891.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/1600956906.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/video/1600958068.mkv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/volunt/1600957502.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/VoteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/VoteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/VoteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/VoteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/styleshow2.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styleshow2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/stylevote1.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/stylevote1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/abyat.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/abyat.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/blogs.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/blogs.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/designe.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/designe.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/drawing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/drawing.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/elqa.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/elqa.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/enfograph.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/enfograph.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/line.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/line.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/motion.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/motion.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/photo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/photo.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_abyat.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_abyat.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_blog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_design.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_design.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_drawing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_drawing.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_elqa.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_elqa.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_enfo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_enfo.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_line.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_line.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_motion.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_motion.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_photo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_photo.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_story.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_story.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_video.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_video.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_volunt.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_volunt.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-elqa.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-elqa.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-volunt.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-volunt.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/storyes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/storyes.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/video.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/video.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/volunteer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/volunteer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/vote.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/vote.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +65,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/resources/views/sharing/photo.blade.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" root2="FORCE_HIGHLIGHTING" />
@@ -127,32 +178,36 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1fPUo2ZqcMoCTuvBDe52cOHWtS7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\project_master_share\public\img" />
+      <recent name="C:\xampp\htdocs\project_master_share\public\css" />
+      <recent name="C:\xampp\htdocs\project_master_share\public\js" />
+      <recent name="C:\xampp\htdocs\project_master_share\public\asset\css" />
+      <recent name="C:\xampp\htdocs\project_master_share\resources\views\sharing\show" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\project_master_share\public\css" />
       <recent name="C:\xampp\htdocs\project_master_share\public\img" />
       <recent name="C:\xampp\htdocs\project_master_share\resources\views\sharing\rang" />
       <recent name="C:\xampp\htdocs\project_master_share\resources\views\sharing\show" />
       <recent name="C:\xampp\htdocs\project_master_share\resources\views\sharing" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\project_master_share\public\css" />
-      <recent name="C:\xampp\htdocs\project_master_share\public\js" />
-      <recent name="C:\xampp\htdocs\project_master_share\public\asset\css" />
-      <recent name="C:\xampp\htdocs\project_master_share\public\img" />
-      <recent name="C:\xampp\htdocs\project_master_share\resources\views\sharing\show" />
     </key>
   </component>
   <component name="RunManager">
@@ -243,11 +298,16 @@
       <workItem from="1600767752498" duration="3123000" />
       <workItem from="1600771458873" duration="21902000" />
       <workItem from="1600859028804" duration="9026000" />
+      <workItem from="1600953817401" duration="1404000" />
+      <workItem from="1600955260856" duration="3204000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="509" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600815796315">
@@ -258,10 +318,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597783565420" />
-    <state x="249" y="222" key="FileChooserDialogImpl" timestamp="1600768729894">
+    <state x="249" y="222" key="FileChooserDialogImpl" timestamp="1600955221231">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="222" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600768729894" />
+    <state x="249" y="222" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600955221231" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1596179960861">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -278,6 +338,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596179960861" />
+    <state x="41" y="94" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600956781620">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="41" y="94" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1600956781620" />
     <state x="375" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600722157982">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

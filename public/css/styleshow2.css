@@ -3,20 +3,21 @@ body{
 
 }
 .container-fluid{
-    position: relative;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .all{
-    position: absolute;
-    top: 50%;
-    left: 30px;
-    transform: translate(-15px,-50%);
     background-color: white;
+    /*	width: 90%;*/
+    width: 1400px;
 }
 .img-container{
-    /*	height: 75vh;*/
+    /*	height: 60vh;*/
     padding-top:5.75vh;
     padding-bottom:5.75vh;
+    padding-right: 0;
 }
 img{
     width: 100%;
@@ -31,7 +32,8 @@ img{
     margin-right: -15px;
 }
 .left-part-container{
-    /*	height: 75vh;*/
+    /*    	height: 75vh;*/
+
     padding-top:5.75vh;
     padding-bottom:5.75vh;
 }
@@ -40,12 +42,12 @@ img{
 }
 .ara-b{
     text-align: center;
-    padding: 15px 5px;
+    padding: 17px 5px;
     font-size: 20px;
     font-weight: bold;
 }
 .ratings .fa{
-    font-size: 45px;
+    font-size: 30px;
     cursor: pointer;
     margin: 0 10px;
 }
@@ -62,11 +64,12 @@ button{
     background-color: transparent;
     border: none;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
+}
+button:focus{
     outline: none;
 }
-
 .white{
     background-color: #E6E6E6;
     color: #009D8E;
@@ -83,12 +86,24 @@ button{
     background-color: #C9C795;
     color: #E6E6E6;
 }
-@media(max-width:991px){
+.mtx{
+    margin-top: 44px;
+}
+@media(max-width:1200px){
     .ara-b,button{
         font-size: 20px;
     }
     .ratings .fa{
         font-size: 30px;
+    }
+    .img-container{
+        padding-right: 15px;
+    }
+    .container-fluid{
+        height: auto;
+    }
+    .all{
+        width: 100%;
     }
 }
 @media(max-width:500px){
@@ -105,3 +120,4 @@ button{
     }
 
 }
+

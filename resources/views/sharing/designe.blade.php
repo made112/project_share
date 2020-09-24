@@ -24,9 +24,11 @@
         <ul>
             <li><a href={{route('sharing.create')}}>مشاركة</a></li>
             <li><a href={{route('sharing.show')}}>معرض المشاركات</a></li>
+            <li><a href={{route('sharing.home')}}>الرئيسة</a></li>
+
         </ul>
     </nav>
-</header><section class="section-Gallery">
+</header>><section class="section-Gallery">
     <div class="container">
         <div class="header-Gallery">
             <div class="row text-center">
