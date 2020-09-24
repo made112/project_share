@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap');
+
+@font-face {
+    font-family: SansArabBold;
+    src: url('../fonts/TheSans-Bold.otf');
+}
+@font-face {
+    font-family: SansArabPlain;
+    src: url('../fonts/The-Sans-Plain.otf');
+}
+@font-face {
+    font-family: SansArabLight;
+    src: url('../fonts/TheSansArabic-Light.otf');
+}
 body{
     background-color: #009D8E;
 
@@ -45,11 +59,14 @@ img{
     padding: 17px 5px;
     font-size: 20px;
     font-weight: bold;
+    font-family: SansArabBold, sans-serif;
+
 }
 .ratings .fa{
     font-size: 30px;
     cursor: pointer;
     margin: 0 10px;
+
 }
 
 
@@ -57,7 +74,9 @@ input{
     margin-top: 20px;
     font-size:22px;
     padding:6px 12px;
-    color: #FFCB00
+    color: #FFCB00 ;
+    font-family: SansArabBold, sans-serif;
+
 }
 button{
     width: 100%;
@@ -66,6 +85,8 @@ button{
     color: white;
     font-size: 25px;
     font-weight: bold;
+    font-family: SansArabBold, sans-serif;
+
 }
 button:focus{
     outline: none;
@@ -73,14 +94,20 @@ button:focus{
 .white{
     background-color: #E6E6E6;
     color: #009D8E;
+    font-family: SansArabBold, sans-serif;
+
 }
 .green-light{
     background-color: #009D8E;
     color: #E6E6E6;
+    font-family: SansArabBold, sans-serif;
+
 }
 .green-dark{
     background-color: #044D45;
     color: #E6E6E6;
+    font-family: SansArabBold, sans-serif;
+
 }
 .gray{
     background-color: #C9C795;
@@ -118,6 +145,7 @@ button:focus{
         padding-top: 50px;
         padding-bottom: 50px;
     }
+
 
 }
 

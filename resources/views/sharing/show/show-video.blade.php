@@ -5,27 +5,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallary Particiabtion</title>
+    <title>Document</title>
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
     <link rel="stylesheet" href="{{asset('css/styleshow2.css')}}">
     <style>
         .checked {
             color: gold;
         }
     </style>
-
-
-
 </head>
 
 <body>
 <div class="container-fluid">
     <div class="all">
-        <div class="row">
+        <div class="row d-flex">
             <div class="col-xl-1 d-xl-block d-none"></div>
-            <div class="col-xl-7 col-lg-8 left-part-container">
+            <div class="col-xl-7 left-part-container order-xl-1 order-2">
                 <div class="left-part">
                     <div class="row">
                         <div class="col-8 white ara-b">{{$data->name}}</div>
@@ -33,12 +29,9 @@
                     </div>
                     <div class="row">
                         <div class="col-8 green-light ara-b ratings">
-                            @for($i=0; $i<5; ++$i)
+                            <span  class="fa fa-star checked">  {{$data->vote_avg}}  </span>
 
-                                <span class="fa fa-star <?php  if($data->vote_avg >= $i+.56)  echo 'checked';  ?>" ></span>
-
-
-                            @endfor
+                            <input type="hidden" name="avg_percent" id="rating-value">
                         </div>
                         <div class="col-4 green-dark ara-b">نسبة التقييم</div>
                     </div>
@@ -54,24 +47,22 @@
                                 <div class="col-4 white ara-b">فيديو</div>
                                 <div class="col-8 green-light ara-b">النوع</div>
                             </div>
-                            <div class="row mt-5 m mb-0">
+                            <div class="row mtx m mb-0">
                                 <div class="col-12 green-light ara-b mb-4">
-                                   <a href="{{route('download.video',$data->id)}}"> <button >تحميل المشاركة</button></a>
+                                    <a href="{{route('download.video',$data->id)}}"> <button >تحميل المشاركة</button></a>
                                 </div>
-
                                 <div class="col-12 gray ara-b mb-4">
-                                 <a href="{{url('view-video/6')}}"><button>العوده الى المعرض</button></a>
+                                    <a href="{{url('view-video/6')}}"><button>العوده الى المعرض</button></a>
                                 </div>
                                 <div class="col-6 offset-3 green-dark ara-b mb-lg-0 mb-4">
                                     <a href="{{url('view-vote/ '.$data->id.'')}}" ><button>التصويت</button></a>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 d-lg-block d-none img-container">
+            <div class="col-xl-4 img-container order-xl-2 order-1">
                 <img src="{{asset('img/video.jpg')}}" alt="pic">
             </div>
         </div>
@@ -85,6 +76,8 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </body>
 
 </html>
+

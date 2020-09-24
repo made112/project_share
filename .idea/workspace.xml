@@ -2,52 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c54e084d-814f-4d4f-b295-58c79a3093ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/drawing/1600956922.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/drawing/1600956944.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/elqa/1600957264.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/elqa/1600957280.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/votpage2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photo/1600955856.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photo/1600956891.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photo/1600956906.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/video/1600958068.mkv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/volunt/1600957502.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/blog/1600969453.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/1600969375.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/line/1600969575.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/motion/1600960082.mkv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stories/1600969555.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/VoteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/VoteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/VoteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/VoteRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SharingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SharingController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/styleshow2.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styleshow2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/stylevote1.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/stylevote1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/abyat.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/abyat.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/blogs.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/blogs.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/designe.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/designe.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/drawing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/drawing.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/elqa.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/elqa.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/enfograph.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/enfograph.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/line.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/line.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/motion.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/motion.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/photo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/photo.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_abyat.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_abyat.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_blog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/HomePage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/HomePage.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_design.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_design.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_drawing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_drawing.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_elqa.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_elqa.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_enfo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_enfo.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_line.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_line.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_motion.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_motion.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_photo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_photo.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_story.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_story.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_video.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_video.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_volunt.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_volunt.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-abyat.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-abyat.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-blog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-design.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-design.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-drawing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-drawing.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-elqa.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-elqa.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-enfo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-enfo.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-line.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-line.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-motion.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-motion.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-photo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-photo.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-story.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-story.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-video.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-video.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-volunt.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-volunt.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/storyes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/storyes.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/video.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/video.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/volunteer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/volunteer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/vote.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/vote.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -299,7 +275,7 @@
       <workItem from="1600771458873" duration="21902000" />
       <workItem from="1600859028804" duration="9026000" />
       <workItem from="1600953817401" duration="1404000" />
-      <workItem from="1600955260856" duration="3204000" />
+      <workItem from="1600955260856" duration="9770000" />
     </task>
     <servers />
   </component>
@@ -346,9 +322,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="375" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1600722157982" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1600710098044">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1600967044079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1600710098044" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1600967044079" />
   </component>
 </project>

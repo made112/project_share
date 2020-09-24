@@ -112,6 +112,7 @@ Route::get('download-line/{id}','SharingController@downloadLine')->name('downloa
 Route::get('download-enfo/{id}','SharingController@downloadEnfo')->name('download.enfo');
 Route::get('download-story/{id}','SharingController@downloadStory')->name('download.story');
 Route::get('download-abyat/{id}','SharingController@downloadAbyat')->name('download.abyat');
+Route::get('download-home-pdf)','SharingController@downloadpdfHome')->name('download.home');
 
 
 

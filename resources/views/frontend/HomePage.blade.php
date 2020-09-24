@@ -13,10 +13,14 @@
 
 <header class="mainBody">
     <nav>
+        <div class="row">
         <ul>
             <li><a href={{route('sharing.create')}}>مشاركة</a></li>
             <li><a href={{route('sharing.show')}}>معرض المشاركات</a></li>
+            <li style="position:absolute;right:0"><a href={{route('download.home')}}> 13 في قلب واحد</a></li>
+
         </ul>
+        </div>
     </nav>
 </header>
 

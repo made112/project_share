@@ -59,7 +59,6 @@
 
                 <div class="card-body">
                     <p>{{$item->name}}</p>
-                    <p>{{$item->vote_avg}}</p>
 
 
                     <span><label class="vote_average" data-avg="{{ $item->vote_avg }}">

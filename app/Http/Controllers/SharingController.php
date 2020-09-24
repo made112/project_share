@@ -804,6 +804,10 @@ class SharingController extends Controller
         return response()->download(public_path('abyat/'.$sharing ->abyat.''));
 
     }
+    public function downloadpdfHome( ){
+        return response()->download(public_path('file/1595550748.pdf'));
+
+    }
 }
 
 
