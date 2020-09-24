@@ -29,8 +29,8 @@
                     </div>
                     <div class="row">
                         <div class="col-8 green-light ara-b ratings">
-                            <span  class="fa fa-star checked">  {{$data->vote_avg}}  </span>
-
+                            <span class="fa fa-star checked"></span>
+                            <span style="color: white;font-size: 26px">{{$data->vote_avg}}</span>
                             <input type="hidden" name="avg_percent" id="rating-value">
                         </div>
                         <div class="col-4 green-dark ara-b">نسبة التقييم</div>
