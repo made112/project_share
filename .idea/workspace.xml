@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c54e084d-814f-4d4f-b295-58c79a3093ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/blog/1600969453.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/design/1600969375.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/line/1600969575.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/motion/1600960082.mkv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stories/1600969555.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SharingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SharingController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/styleshow2.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styleshow2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/HomePage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/HomePage.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/rang/end_design.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/rang/end_design.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-abyat.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-abyat.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-blog.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-design.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-design.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-drawing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-drawing.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-elqa.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-elqa.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-enfo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-enfo.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-line.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-line.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-motion.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-motion.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-photo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-photo.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-story.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-story.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-video.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-video.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/show/show-volunt.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/show/show-volunt.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,7 +254,7 @@
       <workItem from="1600771458873" duration="21902000" />
       <workItem from="1600859028804" duration="9026000" />
       <workItem from="1600953817401" duration="1404000" />
-      <workItem from="1600955260856" duration="9770000" />
+      <workItem from="1600955260856" duration="13447000" />
     </task>
     <servers />
   </component>
