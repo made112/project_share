@@ -1,6 +1,5 @@
 
-<!DOCTYPE html>
-<html dir="rtl" lang="en">
+<html dir="rtl" >
 
 <head>
     <title>Gallary Particiabtion</title>
@@ -82,6 +81,15 @@
 
 
         <div class="container">
+
+            <div class="form-group col-md-3">
+
+                <label for="occupational_report">الإسم</label>
+                <input type="text" class="form-control" id="occupational_report" name="name">
+                @error('name')
+                <small class="form-text " style="color: #FFC107; font-size: 15px;font-family: 'El Messiri', sans-serif">{{$message}}</small>
+                @enderror
+            </div>
             <div class="form-group col-md-3">
 
                 <div class="form-group">
@@ -98,7 +106,7 @@
 
 
             <div class="form-group col-md-3  ">
-                <label for="occupational_report" style="font-size: 20px">السجل المهني </label>
+                <label for="occupational_report" style="font-size: 20px">رقم الهوية </label>
                 <input type="text" class="form-control" id="occupational_report" name="Prof_name">
                 @error('Prof_name')
                 <small class="form-text " style="color: #FFC107; font-size: 15px;font-family: 'El Messiri', sans-serif">{{$message}}</small>
@@ -112,13 +120,6 @@
                 <label for="occupational_report">البريد الإلكترني</label>
                 <input type="text" class="form-control" id="occupational_report" name="email">
                 @error('email')
-                <small class="form-text " style="color: #FFC107; font-size: 15px;font-family: 'El Messiri', sans-serif">{{$message}}</small>
-                @enderror
-            </div>
-            <div class="form-group col-md-3">
-                <label for="occupational_report">الإسم</label>
-                <input type="text" class="form-control" id="occupational_report" name="name">
-                @error('name')
                 <small class="form-text " style="color: #FFC107; font-size: 15px;font-family: 'El Messiri', sans-serif">{{$message}}</small>
                 @enderror
             </div>
