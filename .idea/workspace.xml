@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c54e084d-814f-4d4f-b295-58c79a3093ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/stylevote1.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/stylevote1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sharing/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/create.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +254,7 @@
       <workItem from="1600859028804" duration="9026000" />
       <workItem from="1600953817401" duration="1404000" />
       <workItem from="1600955260856" duration="21699000" />
-      <workItem from="1601026664422" duration="32000" />
+      <workItem from="1601026664422" duration="584000" />
     </task>
     <servers />
   </component>

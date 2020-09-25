@@ -301,10 +301,10 @@
                     <option value="2">صور</option>
                     <option value="3">مقالات</option>
                     <option value="4">قصص</option>
-                    <option value="5">تصامبم</option>
+                    <option value="5">تصاميم</option>
                     <option value="6">فيديو</option>
                     <option value="7">انفوجرافيك</option>
-                    <option value="8">موشن</option>
+                    <option value="8">موشن جرافيك</option>
                     <option value="9">الإلقاء</option>
                     <option value="10">خط</option>
                     <option value="11"> أبيات شعرية</option>
