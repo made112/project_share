@@ -16,7 +16,7 @@
         <ul>
             <li><a href={{route('sharing.create')}}>مشاركة</a></li>
             <li><a href={{route('sharing.show')}}>معرض المشاركات</a></li>
-            <li style="direction: rtl"> <a href={{route('download.home')}}>13 في قلب واحد</a></li>
+            <li style="direction: rtl"> <a href={{route('show-pdf')}}>13 في قلب واحد</a></li>
 
 
 

@@ -808,6 +808,9 @@ class SharingController extends Controller
         return response()->download(public_path('file/في قلب واحد 13.pdf'));
 
     }
+    public function showdpdfHome(){
+        return view('sharing.show_pdf');
+    }
 }
 
 

@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c54e084d-814f-4d4f-b295-58c79a3093ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/file/في قلب واحد 13.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/sharing/show/sharing.show_pdf.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SharingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SharingController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sharing/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sharing/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/HomePage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/HomePage.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,25 +147,25 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/sharing/show" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\project_master_share\public\img" />
-      <recent name="C:\xampp\htdocs\project_master_share\public\css" />
-      <recent name="C:\xampp\htdocs\project_master_share\public\js" />
-      <recent name="C:\xampp\htdocs\project_master_share\public\asset\css" />
-      <recent name="C:\xampp\htdocs\project_master_share\resources\views\sharing\show" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\project_master_share\public\css" />
       <recent name="C:\xampp\htdocs\project_master_share\public\img" />
       <recent name="C:\xampp\htdocs\project_master_share\resources\views\sharing\rang" />
       <recent name="C:\xampp\htdocs\project_master_share\resources\views\sharing\show" />
       <recent name="C:\xampp\htdocs\project_master_share\resources\views\sharing" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\project_master_share\resources\views\sharing\show" />
+      <recent name="C:\xampp\htdocs\project_master_share\public\img" />
+      <recent name="C:\xampp\htdocs\project_master_share\public\css" />
+      <recent name="C:\xampp\htdocs\project_master_share\public\js" />
+      <recent name="C:\xampp\htdocs\project_master_share\public\asset\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -258,7 +259,7 @@
       <workItem from="1600953817401" duration="1404000" />
       <workItem from="1600955260856" duration="21699000" />
       <workItem from="1601026664422" duration="1579000" />
-      <workItem from="1601068276424" duration="5275000" />
+      <workItem from="1601068276424" duration="6461000" />
     </task>
     <servers />
   </component>
