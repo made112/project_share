@@ -17,6 +17,9 @@
             <li><a href={{route('sharing.create')}}>مشاركة</a></li>
             <li><a href={{route('sharing.show')}}>معرض المشاركات</a></li>
             <li style="direction: rtl"> <a href={{route('download.home')}}>13 في قلب واحد</a></li>
+{{--            <li style="direction: rtl"> <a href="https://www.youtube.com/watch?v=FBpju5OhV70&list=RDFBpju5OhV70&start_radio=1">الفيديو التعريفي</a></li>--}}
+
+
 
 
 
@@ -36,7 +39,6 @@
 
     </div>
 </div>
-
 
 
 
