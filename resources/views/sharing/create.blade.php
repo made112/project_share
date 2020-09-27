@@ -282,7 +282,7 @@
                     <option value=""></option>
 
                     <option value="ابتدائي">ابتدائي</option>
-                    <option value="اعدادي">اعدادي</option>
+                    <option value="متوسط">متوسط</option>
                     <option value="ثانوي">ثانوي</option>
                 </select>
 {{--                @if($errors->has('edulevel'))--}}
