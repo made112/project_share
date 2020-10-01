@@ -46,6 +46,8 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: transparent;
+    padding-left: 378px;
+
 }
 
 li {
@@ -59,6 +61,7 @@ li a {
     padding: 16px;
     text-decoration: none;
     font-family: SansArabBold, sans-serif;
+
 }
 
 li a:hover {
@@ -88,7 +91,7 @@ body nav ul li a {
 #blue {
     background-color: rgb(8, 167, 216);
     display: inline;
-    font-size: 50px;
+    font-size: 20px;
     border-radius: 25px;
     padding: 0 20px;
 }
@@ -129,7 +132,6 @@ input[type="submit"] {
     padding: 5px;
     margin-bottom: 5%;
     font-weight: bold;
-    background-color: rgb(13, 114, 230);
     background-color: rgb(14, 27, 100);
 }
 
@@ -251,4 +253,13 @@ pre {
 
 .vote_average {
     display: block;
+}
+@media (max-width: 767px) {
+    ul {
+        list-style-type: none;
+        margin: 0 5%;
+        padding: 0;
+        overflow: hidden;
+        background-color: transparent;
+    }
 }
