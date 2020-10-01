@@ -17,7 +17,7 @@
             <li><a href={{route('sharing.create')}}>مشاركة</a></li>
             <li><a href={{route('sharing.show')}}>معرض المشاركات</a></li>
             <li style="direction: rtl"> <a href={{route('download.home')}}>13 في قلب واحد</a></li>
-{{--            <li style="direction: rtl"> <a href="https://www.youtube.com/watch?v=FBpju5OhV70&list=RDFBpju5OhV70&start_radio=1">الفيديو التعريفي</a></li>--}}
+            <li style="direction: rtl"> <a href="https://www.youtube.com/watch?v=AQk3nfw6jNY&feature=youtu.be&fbclid=IwAR3Zmcsu7Rs39Q3KeiFMCZ4BUFViV5Of0-4oW4XLcu_hdF9IVRXgL_M7uNA">رحلة ولاء تجوب الأرجاء</a></li>
 
 
 
