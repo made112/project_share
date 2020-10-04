@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c54e084d-814f-4d4f-b295-58c79a3093ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/css/stylemain.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/stylemain.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/file/13inone.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SharingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SharingController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +271,8 @@
       <workItem from="1601661523726" duration="650000" />
       <workItem from="1601670860640" duration="1337000" />
       <workItem from="1601674048445" duration="1169000" />
-      <workItem from="1601676127298" duration="1645000" />
+      <workItem from="1601676127298" duration="1985000" />
+      <workItem from="1601835945667" duration="373000" />
     </task>
     <servers />
   </component>

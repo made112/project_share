@@ -805,7 +805,7 @@ class SharingController extends Controller
 
     }
     public function downloadpdfHome( ){
-        return response()->download(public_path('file/في قلب واحد 13.pdf'));
+        return response()->download(public_path('file/13inone.pdf'));
 
     }
     public function showdpdfHome(){
