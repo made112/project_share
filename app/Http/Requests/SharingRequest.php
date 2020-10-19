@@ -20,7 +20,7 @@ class SharingRequest extends FormRequest
     {
         return ['name' => 'required',
 
-            'Prof_name' => 'required',
+            'Prof_name' => 'required|numeric:sharing',
             'nationality' => 'required',
             'management' => 'required',
             'edulevel' => 'required',
@@ -78,6 +78,8 @@ class SharingRequest extends FormRequest
             'email.email'=>'هذا  البريد الإلكتروني غير صالح',
 
             'mobile.numeric' => 'يجب أن يكون رقم الهاتف صالح للإستخدام',
+            'Prof_name.numeric' => 'يجب أن يكون رقم الهوية صالح للإستخدام',
+
             'mobile.required' => 'رقم الهاتف مطلوب  ' ,
             'edu_area.required' => 'يرجى ادخال المنظمة التعليمية ',
 
