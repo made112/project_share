@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c54e084d-814f-4d4f-b295-58c79a3093ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/SharingRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/SharingRequest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +275,13 @@
       <workItem from="1601925185507" duration="281000" />
       <workItem from="1602107113218" duration="347000" />
       <workItem from="1602368835785" duration="26000" />
-      <workItem from="1603099999426" duration="94000" />
+      <workItem from="1603099999426" duration="337000" />
+      <workItem from="1603788356078" duration="196000" />
+      <workItem from="1603789155630" duration="49000" />
+      <workItem from="1603790982772" duration="331000" />
+      <workItem from="1603791678964" duration="220000" />
+      <workItem from="1603806401868" duration="208000" />
+      <workItem from="1603888245842" duration="631000" />
     </task>
     <servers />
   </component>
