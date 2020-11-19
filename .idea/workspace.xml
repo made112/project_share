@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c54e084d-814f-4d4f-b295-58c79a3093ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/file/13inone.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/file/13inone.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/file/1595550748.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/file/في قلب واحد 13.pdf" beforeDir="false" />
-    </list>
+    <list default="true" id="c54e084d-814f-4d4f-b295-58c79a3093ab" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -286,7 +281,7 @@
       <workItem from="1603806401868" duration="208000" />
       <workItem from="1603888245842" duration="631000" />
       <workItem from="1605439037526" duration="955000" />
-      <workItem from="1605647529367" duration="80000" />
+      <workItem from="1605647529367" duration="239000" />
     </task>
     <servers />
   </component>
