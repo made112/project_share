@@ -57,7 +57,7 @@
                         <option value="9">الرياض</option>
                         <option value="10">الجوف</option>
                         <option value="11">الشرقية</option>
-                        <option value="12">القسيم</option>
+                        <option value="12">القصيم</option>
                         <option value="13">الباحة</option>>
 
                     </select>
